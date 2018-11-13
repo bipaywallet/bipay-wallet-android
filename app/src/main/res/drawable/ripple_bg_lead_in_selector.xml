@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?><!--应用通用的操作按钮点击效果，如登录，注册按钮-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/shape_bg_btn_lead_in_pressed" android:state_selected="true" />
+    <item android:drawable="@drawable/shape_bg_btn_lead_in_pressed" android:state_pressed="true" />
+    <item android:drawable="@drawable/shape_bg_btn_lead_in_normal" />
+</selector>

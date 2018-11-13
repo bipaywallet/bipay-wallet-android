@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="120dp"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape_triangle" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_bg_item_popwindow_normal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/llScan"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/ripple_bg_item_popwidow_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@mipmap/icon_pop_scan" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wallet_pop_scan"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_small" />
+            </LinearLayout>
+
+            <View
+                style="@style/line_bg_white"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp" />
+
+            <LinearLayout
+                android:id="@+id/llCreateWallet"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/ripple_bg_item_popwidow_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@mipmap/icon_pop_create_wallet" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fragment_one_pop_cjqb"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_small" />
+            </LinearLayout>
+
+            <View
+                style="@style/line_bg_white"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp" />
+
+            <LinearLayout
+                android:id="@+id/llLeadIn"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/ripple_bg_item_popwidow_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@mipmap/icon_pop_lead_in" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fragment_one_pop_drqb"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_small" />
+            </LinearLayout>
+
+            <View
+                style="@style/line_bg_white"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp" />
+
+            <LinearLayout
+                android:id="@+id/llAddMoney"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:background="@drawable/ripple_bg_item_popwidow_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@mipmap/icon_pop_add_money" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fragment_one_pop_tjzc"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_small" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

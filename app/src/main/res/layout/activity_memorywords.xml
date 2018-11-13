@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    android:orientation="vertical">
+
+    <!--标题-->
+    <include layout="@layout/view_head" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/llDefault"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:gravity="center_horizontal"
+                android:text="@string/activity_memory_words_txt1"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="@string/activity_memory_words_txt2"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_small" />
+
+            <!--助记词-->
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvWords"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/shape_bg_gray_memory"
+                android:listSelector="@color/transparent"
+                android:numColumns="4"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp" />
+
+            <TextView
+                android:id="@+id/tvNext"
+                style="@style/btn_option"
+                android:layout_marginTop="50dp"
+                android:text="@string/activity_memory_words_next" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llQrzjc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal"
+                android:text="@string/activity_memory_words_txt3"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="@string/activity_memory_words_txt4"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_small" />
+
+            <!--填入助记词-->
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvConfirmWords"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_bg_gray_memory"
+                android:listSelector="@color/transparent"
+                android:numColumns="4"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp" />
+
+            <!--选择助记词-->
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvSelectWords"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:id="@+id/tvConfirm"
+                style="@style/btn_option"
+                android:layout_marginTop="50dp"
+                android:text="@string/activity_memory_words_confirm" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

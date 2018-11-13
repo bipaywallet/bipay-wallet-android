@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="bipaywallet" />
+    <version value="10" />
+
+    <list>
+        <mapping class="com.spark.bipaywallet.entity.Wallet" />
+        <mapping class="com.spark.bipaywallet.entity.MyCoin" />
+        <mapping class="com.spark.bipaywallet.entity.LinkMan" />
+        <mapping class="com.spark.bipaywallet.entity.AddressBean" />
+        <mapping class="com.spark.bipaywallet.entity.MyRecordBean" />
+        <mapping class="com.spark.bipaywallet.entity.MyExchangeRecord" />
+    </list>
+
+    <storage value="internal" />
+
+</litepal>

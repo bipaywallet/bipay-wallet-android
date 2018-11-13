@@ -1,0 +1,336 @@
+<resources>
+    <string name="app_id">wxa9abf55c581d97cf</string>
+    <string name="umeng_id">5b7d05b58f4a9d78de000025</string>
+    <string name="exchange_key">21fa7faea69b44e7bc1d0dc054aa923a</string>
+    <string name="exchange_secret">7b7d8bb0047ad94db11eeaec4b7752f8e5c471728f5ff761263077468ff5fb2f</string>
+
+    <string name="app_name">Bipay</string>
+    <string name="save_app_version_name">bipaywallet</string>
+    <string name="home_tab_wallet">Wallet</string>
+    <string name="home_tab_market">Markets</string>
+    <string name="home_tab_news">News</string>
+    <string name="home_tab_set">Setting</string>
+    <item name="sidebar" type="id"></item>
+    <item name="curPosition" type="id"></item>
+    <!--异常-->
+    <string name="unknown_error">Unknown Error</string>
+    <string name="no_network">Network exception, please check the network</string>
+    <string name="parse_error">Data Exception</string>
+    <string name="time_out">Request timed out</string>
+    <string name="no_data">No Data</string>
+    <string name="Incomplete_information">Incomplete information</string>
+    <string name="password_two_warn">Inconsistent entry password</string>
+    <string name="wallet_name_repeat_warn">This wallet name already exists</string>
+    <string name="wallet_exist_warn">This wallet already exists</string>
+    <string name="linkman_name_repeat_warn">This contact name already exists</string>
+    <string name="password_length_tip">Password must be 6 digits</string>
+    <string name="password_confirm_error">Password verification error</string>
+    <string name="confirm_error">Verification error</string>
+    <string name="memory_words_warn">Mnemonic is illegal</string>
+    <string name="privkey_warn">Private key is illegal</string>
+    <string name="transfer_pay_warn">Transfer amount must be greater than 0</string>
+    <string name="fee_warn">Miners fee must be greater than 0</string>
+    <string name="money_not_enough">Insufficient balance</string>
+    <string name="fee_not_enough">Insufficient fee</string>
+    <string name="address_not_verify">Transfer address is illegal</string>
+    <string name="address_not_allow">Transfer address cannot be your own address</string>
+    <string name="zxing_fail">Parsing failure</string>
+    <string name="zxing_coin_error">This address is not the current asset address</string>
+    <string name="zxing_add_coin_first">Please add this asset first</string>
+    <string name="check_box_selected_first">Please agree the service and privacy terms first</string>
+    <string name="installed_error">The app could not be found. Please try again after installation!</string>
+    <string name="mobile_error">Phone number format is not correct</string>
+    <string name="email_error">Email format is incorrect</string>
+
+    <string name="camera_permission">Permission is not available, please turn on camera permissions</string>
+    <string name="storage_permission">Permission is not available, please turn on storage permission</string>
+
+    <string name="warm_prompt">Warm Prompt</string>
+
+    <string name="exit_again">Press again to exit</string>
+    <string name="help">Help</string>
+    <string name="english">English</string>
+    <string name="chinese">Chinese</string>
+    <string name="share">Share</string>
+    <string name="save">Save</string>
+    <string name="more">More</string>
+    <string name="password_change_success">Successfully modified</string>
+    <string name="news_up">Collapse</string>
+    <string name="news_down">Expand</string>
+
+    <string name="record_wait_confirm">Confirming</string>
+    <string name="record_finish">Finished</string>
+
+    <string name="copy_success">Copied to clipboard!</string>
+    <string name="save_success">Successfully saved</string>
+    <string name="delete_success">Successfully deleted</string>
+    <string name="trade_success">Successful transaction</string>
+    <string name="trade_underway">You may have an unfinished transaction</string>
+    <string name="can_not_search">Temporarily does not support query</string>
+
+    <string name="share_weixin">WeChat friends</string>
+    <string name="share_pyq">Circle of friends</string>
+
+    <string name="fragment_one_pop_all_money">Total Assets</string>
+    <string name="wallet_pop_scan">Scan</string>
+    <string name="fragment_one_pop_cjqb">Create Wallet</string>
+    <string name="fragment_one_pop_drqb">Import Wallet</string>
+    <string name="fragment_one_pop_tjzc">Add Assets</string>
+
+    <string name="fragment_two_zcmc">Asset Name</string>
+    <string name="fragment_two_zxj">Latest price</string>
+    <string name="fragment_two_zdf">Quote change</string>
+
+    <string name="fragment_four_man">Contacts</string>
+    <string name="fragment_four_record">Transaction Record</string>
+    <string name="fragment_four_wallet">Manage</string>
+    <string name="fragment_four_message">Messages</string>
+    <string name="fragment_four_setting">Settings</string>
+    <string name="fragment_four_help">Help</string>
+    <string name="fragment_four_aboutus">About</string>
+    <string name="fragment_four_version">Update</string>
+    <string name="fragment_four_coin">Currencies</string>
+    <string name="fragment_four_language">Language</string>
+    <string name="fragment_four_share_app">Share</string>
+    <string name="help_center">Help Center</string>
+
+    <string name="activity_lead_next">Experience Now</string>
+
+    <string name="activity_add_market">Add Market</string>
+    <string name="activity_add_market_search">Search</string>
+
+    <string name="activity_market_details">Price quote</string>
+
+    <string name="activity_wallet_details_qbmc">Wallet Name</string>
+    <string name="activity_wallet_details_tip">Password Hint</string>
+    <string name="activity_wallet_details_xgmm">Change Password</string>
+    <string name="activity_wallet_details_dcsy">Export Private Key</string>
+    <string name="activity_wallet_details_scqb">Delete Wallet</string>
+    <string name="activity_wallet_details_key">Private Key</string>
+    <string name="activity_wallet_details_main_key">Primary private key</string>
+
+    <string name="activity_update_password_title">Change Password</string>
+    <string name="activity_update_password_hint1">Please enter the original password</string>
+    <string name="activity_update_password_hint2">Please enter a new password</string>
+    <string name="activity_update_password_hint3">Reconfirm Password</string>
+    <string name="activity_update_password_qrxg">Confirm</string>
+
+    <string name="activity_create_wallet_name">Wallet Name</string>
+    <string name="activity_create_wallet_pwd">Password</string>
+    <string name="activity_create_wallet_confirm_pwd">Confirm Password</string>
+    <string name="activity_create_wallet_tag">Password Hint(Not required)</string>
+
+    <string name="activity_backups_wallet_title">Backup the wallet</string>
+    <string name="activity_backups_wallet_txt1">Created successfully</string>
+    <string name="activity_backups_wallet_txt2">Last step：Back up your wallet now</string>
+    <string name="activity_backups_wallet_txt3">Backup Wallet：Export mnemonic and copy to a safe place，
+        don\'t save on the network and try to transfer or transfer small assets to start using.</string>
+
+    <string name="activity_memory_words_title">Backup Mnemonic</string>
+    <string name="activity_memory_words_txt1">Copy down the mnemonic for your wallet</string>
+    <string name="activity_memory_words_txt2">Click “English” or “Chinese” in the upper right corner to switch to the mnemonic word you are good at. Mnemonic word is used to restore the wallet or reset the wallet password,
+        copy it accurately to the paper and exist in a safe place only you know</string>
+    <string name="activity_memory_words_txt3">Check your wallet mnemonic</string>
+    <string name="activity_memory_words_txt4">Please confirm your backup mnemonic words, and click to fill in in the correct order</string>
+    <string name="activity_memory_words_next">Next</string>
+    <string name="activity_memory_words_confirm">Confirm</string>
+
+    <string name="activity_create_wallet_success_title">Wallet successfully created</string>
+    <string name="activity_create_wallet_success_next">Use it now</string>
+
+    <string name="activity_add_coin_title">Add Assets</string>
+    <string name="activity_add_erc">ERC20 standard</string>
+
+    <string name="activity_news_details_title">Details</string>
+    <string name="have">Have</string>
+    <string name="have_news_message">news</string>
+
+    <string name="activity_select_coin_title">Choose Currency</string>
+
+    <string name="activity_select_language_title">Choose Language</string>
+
+    <string name="activity_message_title">Messages</string>
+
+    <string name="activity_message_details_title">Message Details</string>
+
+    <string name="activity_switch_wallet_title">Switch Wallet</string>
+
+    <string name="activity_payment_zhuanzhang">Transfer</string>
+    <string name="activity_payment_shoukuan">Receive</string>
+    <string name="activity_payment_copy">Copy</string>
+    <string name="activity_payment_dqdz">Current Address：</string>
+    <string name="activity_payment_zjjy">Transfer Record</string>
+
+    <string name="activity_create_man_title">New Contact</string>
+    <string name="activity_create_man_hint1">Name</string>
+    <string name="activity_create_man_hint2">Payee wallet address</string>
+    <string name="activity_create_man_hint3">Phone Number(Not required)</string>
+    <string name="activity_create_man_hint4">Email(Not required)</string>
+    <string name="activity_create_man_hint5">Remarks(Not required)</string>
+
+    <string name="activity_edit_man_title">Edit Contact</string>
+    <string name="activity_edit_man_del">Delete</string>
+
+    <string name="activity_man_title">Contacts</string>
+    <string name="activity_man_add">Add Contact</string>
+
+    <string name="activity_receivables_title">Receive Code</string>
+    <string name="activity_receivables_shoukuan_address">Receive Address</string>
+    <string name="activity_receivables_shoukuan_money">Receive Amount</string>
+    <string name="activity_receivables_copy_address">Copy</string>
+    <string name="activity_receivables_save_image">Save</string>
+
+    <string name="activity_trade_details_title">Transaction Details</string>
+    <string name="activity_trade_details_zhuanzhang">Transfer</string>
+    <string name="activity_trade_details_shoukuan_address">Receive Address</string>
+    <string name="activity_trade_details_out_address">Transfer Address</string>
+    <string name="activity_trade_details_fee">Miners Fee</string>
+    <string name="activity_trade_details_block_height">Block Height</string>
+    <string name="activity_trade_details_trade_number">Transaction ID</string>
+    <string name="activity_trade_details_trade_time">Transaction Time</string>
+    <string name="activity_trade_details_search">Search</string>
+
+    <string name="activity_zxing_title">Scan Code</string>
+    <string name="activity_zxing_photo">Album</string>
+    <string name="activity_zxing_scan_txt">Align the frame with the QR code to scan</string>
+
+    <string name="activity_import_wallet_ksdr">Import</string>
+    <string name="activity_import_wallet_hint1">Please enter mnemonic words and space them</string>
+    <string name="activity_import_wallet_hint2">Currently, only the private key of the wallet exported from the payment App is supported.
+        The private key of the wallet of other systems is not supported. Please import carefully</string>
+    <string name="activity_import_wallet_success">Wallet imported successfully</string>
+    <string name="activity_import_wallet_ljsy">Use it now</string>
+
+    <string name="activity_transfer_pay_title">Transfer</string>
+    <string name="activity_transfer_pay_dialog_title">Confirm transfer</string>
+    <string name="activity_transfer_pay_hint0">Please enter a legal address</string>
+    <string name="activity_transfer_pay_hint1">Transfer Amount</string>
+    <string name="activity_transfer_pay_hint2">Remarks</string>
+    <string name="activity_transfer_pay_fee">Miners Fee</string>
+    <string name="activity_transfer_pay_slow">Slow</string>
+    <string name="activity_transfer_pay_common">Normal</string>
+    <string name="activity_transfer_pay_fast">Fast</string>
+    <string name="activity_transfer_pay_remark">Remarks(Only visible to yourself)</string>
+
+    <string name="activity_notice">Details</string>
+    <string name="activity_trade">Transaction Inquiry</string>
+    <string name="activity_news_erweima">Scan the qr code and download the App</string>
+
+    <string name="activity_agreement">Terms of Service</string>
+    <string name="activity_agreement_content">Dear users: \n\nThank you for choosing the Bipay service. Before using Bipay (hereinafter referred to as "Bipay" or "this software"), please read the "Bipay Service Agreement" and the related agreements mentioned later, especially Terms such as “Disclaimer and Limitation of Liability” as set forth in this Agreement will be reflected in bold form to ensure that you fully understand the terms of this Agreement and consider risks yourself. \n\n1. Confirmation and Acceptance of this Agreement\n\n1. By downloading Bipay Software and creating or importing a wallet, you are deemed to have fully read and accepted all the terms of this Agreement. This Agreement is effective immediately and has Binding force. \n\n2. If you are under the age of 18, or have no civil capacity or limited capacity for civil conduct, use Bipay under the direction of a parent or guardian. \n\n II. Definition 1. Bipay: Develop a multi-currency wallet management software based on blockchain technology. \n\n2. User: \n\n(1) User must be a natural person with full civil capacity; \n\n(2) If you are using Bipay for minors under the age of 18, you need to be at your parents. Use Bipay under the guidance of a guardian. Bipay has the right to ask you and your parent or guardian to be responsible for all consequences of using Bipay or restricting civil capacity to engage in transactions beyond the scope of his or her civil rights or capacity. \n\n3. Create or import a wallet: Refers to the process of using Bipay to confirm the fulfillment of this agreement and to create or import a wallet. \n\n4. Wallet password: refers to the password that you are prompted by the software operation interface during the process of creating the Bipay wallet. This password is used for payment confirmation. Once lost, you need to reset the new password with the login password. \n\n5. Private key: consists of 256-bit random characters, which is the core of the user\'s own and use of digital tokens. \n\n6. Public key: generated by the private key by means of cryptography, and used to generate the blockchain digital wallet address. The digital wallet address is the public collection address. \n\n7. Login password: It consists of 18 letters or numbers generated by a random algorithm, which is convenient for users to backup and keep. \n\n3. Service Content\n\n1. Create or import a wallet. For digital tokens supported by Bipay, you can use Bipay to generate a new wallet or import a compatible wallet generated by other wallet tools in the relevant blockchain system. \n\n2. Transfer, collection. You can use Bipay's transfer and collection functions to manage digital tokens, that is, use the private key for electronic signature and modify the ledger of the relevant blockchain. Transfer means that the payer uses the blockchain address of the payee to perform the transfer operation, and the actual transfer and collection behaviors occur in the relevant blockchain system (not Bipay). \n\n3. Quotes view. You can use Bipay to view the digital token exchange rate prices provided. Bipay captures the corresponding digital token exchange rate information and displays it in the market section. \n\n4. Transaction history. We will copy all or part of your transaction history through the blockchain system. However, the transaction records are subject to the records of the blockchain system. \n\n5. Suspend service. You know that based on the "irrevocable" nature of the blockchain system transaction, we cannot suspend or cancel the transfer transaction, etc., but under certain circumstances, we can suspend or limit the operation of a user on the Bipay software. \n\n IV. Disclaimer\n\n1. Bipay will take reasonable security measures to protect your personal information as far as possible under the current state of the art to avoid disclosure, tampering or damage. The system uses wireless transmission of data, so the privacy and security of data transmission over the wireless network cannot be guaranteed. \n\n5, Other \n\n1. If you are a user outside the People's Republic of China, you need to fully understand and comply with all relevant laws, rules and regulations in your jurisdiction and use of the Fusion Services. \n\n2. If you encounter any problems with the use of personal information during the Bipay service, you can contact us by submitting feedback at Bipay. \n\n3. Any translation of this policy is provided for convenience only and is not intended to be modified by the terms of this policy. If there is a conflict between the Chinese version and the non-Chinese version of this policy, the Chinese version shall prevail. \n\nThis policy is not exhausted, you must abide by the announcements and related rules that Bipay updates from time to time.</string>
+
+    <string name="activity_lead_open">The first open source and open wallet</string>
+
+    <string name="activity_exchange_title">Exchange</string>
+    <string name="activity_exchange_sell">Sell</string>
+    <string name="activity_exchange_buy">Buy</string>
+    <string name="activity_exchange_input_hint">Input Amount</string>
+    <string name="activity_exchange_rate">Rate\ </string>
+    <string name="activity_exchange_fee">Fee(0.5%)\ </string>
+    <string name="activity_exchange_min_out">\ Minimum convertibility：</string>
+    <string name="activity_exchange_search">Search</string>
+    <string name="activity_exchange_tip_same_coin">The same currency cannot be exchanged</string>
+    <string name="activity_exchange_tip_input">Please enter the amount</string>
+    <string name="activity_exchange_tip_min_out">The amount of sells cannot be less than the minimum sell amount</string>
+    <string name="activity_exchange_dialog_content">The convertibility service is supported by Changelly, and the real time exchange rate depends on the relative price of large transactions at home and abroad. The amount of money earned by the exchange service fluctuates according to the real-time price. Each Changelly exchange will be charged 0.5% of the transaction fee and the miner fee will be supported once the transaction is linked. Please refer to the final amount received.</string>
+    <string name="activity_exchange_dialog_ok">I Know</string>
+
+    <string name="activity_exchange_confirm_btn">Confirm Exchange</string>
+
+    <string name="activity_exchange_record_time">Time</string>
+
+    <string name="activity_exchange_detail_exchange">Exchanging</string>
+    <string name="activity_exchange_detail_out_address">Transfer Address</string>
+    <string name="activity_exchange_detail_in_address">Receive Address</string>
+    <string name="activity_exchange_detail_type">Transaction Type</string>
+    <string name="activity_exchange_detail_rate">Rate</string>
+    <string name="activity_exchange_detail_time">Transaction Time</string>
+
+    <string name="activity_exchange_record_title">Exchange Record</string>
+
+    <string name="exchange_confirming">Confirming</string>
+    <string name="exchange_exchanging">Exchanging</string>
+    <string name="exchange_finished">Successful Exchange</string>
+    <string name="exchange_fail">Exchange Failed</string>
+
+    <string name="wallet_adapter_have">Contains\ </string>
+    <string name="wallet_adapter_currencies">\ Currencies</string>
+
+    <string name="about_us">About Us</string>
+    <string name="about_us_content">\ \ \ \ \ \ Bipay is a mobile digital asset wallet，
+        focus on multi-chain multi-currency management，provide users with secure, easy-to-use digital asset management services.</string>
+
+    <string name="agreement_read">I have read and agreed</string>
+    <string name="agreement_detail">《Terms of service and privacy》</string>
+    <string name="agreement_detail_tag">Click "Create Wallet" to accept</string>
+    <string name="agreement_detail_import_tag">Click "Import" to accept </string>
+
+    <string name="dialog_title">Please enter a 6 digits password</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_confirm">Confirm</string>
+    <string name="dialog_copy">Copy</string>
+    <string name="dialog_copy_over">Copied</string>
+    <string name="dialog_export_tips">Security warning: private keys are not encrypted and exporting is a risk. Please export carefully.
+        Copy completion is recommended for physical storage and keep in a place only you know</string>
+
+    <string name="dialog_memory_title">The mnemonic word order is verified correctly. After the wallet is created successfully, the Bipay Wallet will remove the mnemonic word and will not be stored and backed up.</string>
+    <string name="dialog_change_password_title">Password verification is correct，confirm password change？</string>
+    <string name="dialog_clear_cache_title">Confirm clear local cache？</string>
+    <string name="dialog_delete_link_man_title">Confirm delete contact？</string>
+    <string name="dialog_delete_wallet_title">The password is correct，confirm to delete this wallet？</string>
+    <string name="dialog_update_wallet_name_hint">Please enter the name of the wallet you wish to modify</string>
+    <string name="dialog_back_create_wallet_tip">Returned during the creation of the wallet, which needs to be recreated</string>
+
+    <string name="empty_no_message_title">No Data...</string>
+    <string name="empty_no_coin_title_top">Haven\'t added assets yet，click on the top right corner\"+\"，</string>
+    <string name="empty_no_coin_title_bottom">add assets</string>
+    <string name="empty_no_linkman_title">No contact</string>
+    <string name="empty_no_osmsg_title">No message</string>
+    <string name="empty_no_wallet_title">No transaction record</string>
+    <string name="empty_no_wallet_data_title">No wallet data</string>
+
+    <string name="text_it_gao">High</string>
+    <string name="text_it_di">Low</string>
+    <string name="text_24_change">24h</string>
+
+    <string name="version_title">Whether to start updating</string>
+    <string name="version_ok">Yes</string>
+    <string name="version_cancel">No</string>
+    <string name="version_url_error">Download address does not exist</string>
+    <string name="version_progress_title">Downloading</string>
+    <string name="version_progress_message">Play life download...</string>
+    <string name="version_notify">Please check the download progress in the notification bar....</string>
+    <string name="version_no_new">Already the latest version</string>
+    <string name="coin_type">Please select a currency</string>
+
+    <string name="case_exchange_waiting">Waiting</string>
+    <string name="case_exchange_confirming">Confirming</string>
+    <string name="case_exchange_exchanging">Exchanging</string>
+    <string name="case_exchange_sending">Sending</string>
+    <string name="case_exchange_finished">Finished</string>
+
+    <string-array name="import_wallet_tab">
+        <item>Mnemonic</item>
+        <item>Private Key</item>
+    </string-array>
+
+    <string-array name="k_line_tab">
+        <item>Time period</item>
+        <item>1 minute</item>
+        <item>5 minutes</item>
+        <item>1 hour</item>
+        <item>1 day</item>
+        <item>30 minutes</item>
+        <item>1 week</item>
+        <item>1 month</item>
+    </string-array>
+
+    <string-array name="currency_str">
+        <item>BTC</item>
+        <item>BCH</item>
+        <item>ETH</item>
+        <item>LTC</item>
+        <item>USDT</item>
+        <item>XNE</item>
+    </string-array>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lladapter"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_side_item_color_selector"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:singleLine="true"
+        android:text="--"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_normal" />
+</LinearLayout>

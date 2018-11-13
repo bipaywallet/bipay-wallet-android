@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    android:orientation="vertical">
+
+    <!--标题-->
+    <include layout="@layout/view_head" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--default-->
+        <LinearLayout
+            android:id="@+id/llDefault"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:id="@+id/llWalletName"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/ripple_item_link_main_selector"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+
+                <TextView
+                    style="@style/textview_tag_normal"
+                    android:text="@string/activity_wallet_details_qbmc" />
+
+                <TextView
+                    android:id="@+id/tvName"
+                    style="@style/edittext_normal"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/transparent"
+                    android:gravity="right|center_vertical"
+                    android:textColor="@color/font_sec_grey" />
+
+                <ImageView style="@style/style_next" />
+            </LinearLayout>
+
+            <View style="@style/line_bg_grey" />
+
+            <LinearLayout
+                android:id="@+id/llPasswordTip"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/ripple_item_link_main_selector"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="5dp">
+
+                <TextView
+                    style="@style/textview_tag_normal"
+                    android:text="@string/activity_wallet_details_tip" />
+
+                <TextView
+                    android:id="@+id/tvTip"
+                    style="@style/edittext_normal"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="right|center_vertical"
+                    android:textColor="@color/font_sec_grey" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/line1"
+                style="@style/line_bg_grey" />
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="60dp"-->
+            <!--android:background="@color/white"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:paddingLeft="10dp"-->
+            <!--android:paddingRight="10dp">-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="剩余金额"-->
+            <!--android:textColor="@color/baseBlack"-->
+            <!--android:textSize="14sp" />-->
+
+            <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:ellipsize="end"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:lines="1"-->
+            <!--android:text="10000.00"-->
+            <!--android:textColor="@color/black" />-->
+            <!--</LinearLayout>-->
+
+            <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1px"-->
+            <!--android:background="@color/lineGray" />-->
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="60dp"-->
+            <!--android:background="@color/white"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:paddingLeft="10dp"-->
+            <!--android:paddingRight="10dp">-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="已选币种"-->
+            <!--android:textColor="@color/baseBlack"-->
+            <!--android:textSize="14sp" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/tvSelectedCoin"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:ellipsize="end"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:lines="1"-->
+            <!--android:text="BTC ETH USDT LTC BCH"-->
+            <!--android:textColor="@color/black" />-->
+            <!--</LinearLayout>-->
+
+            <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1px"-->
+            <!--android:background="@color/lineGray" />-->
+
+            <LinearLayout
+                android:id="@+id/llUpdatePassword"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/ripple_item_link_main_selector"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+
+                <TextView
+                    style="@style/textview_tag_normal"
+                    android:text="@string/activity_wallet_details_xgmm" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <ImageView style="@style/style_next" />
+            </LinearLayout>
+
+            <View style="@style/line_bg_grey" />
+
+            <LinearLayout
+                android:id="@+id/llExport"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/ripple_item_link_main_selector"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+
+                <TextView
+                    style="@style/textview_tag_normal"
+                    android:text="@string/activity_wallet_details_dcsy" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <ImageView style="@style/style_next" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvDel"
+                style="@style/btn_option"
+                android:layout_marginTop="50dp"
+                android:text="@string/activity_wallet_details_scqb" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

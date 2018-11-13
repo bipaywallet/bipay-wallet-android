@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bipaygithub.iml" filepath="$PROJECT_DIR$/bipaygithub.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bipaysdk/bipaysdk.iml" filepath="$PROJECT_DIR$/bipaysdk/bipaysdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kchartlib/kchartlib.iml" filepath="$PROJECT_DIR$/kchartlib/kchartlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib-zxing/lib-zxing.iml" filepath="$PROJECT_DIR$/lib-zxing/lib-zxing.iml" />
+    </modules>
+  </component>
+</project>

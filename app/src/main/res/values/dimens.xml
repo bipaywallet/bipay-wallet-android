@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="font_mini">12sp</dimen>
+    <dimen name="font_small">14sp</dimen>
+    <dimen name="font_normal">16sp</dimen>
+    <dimen name="font_lager">18sp</dimen>
+    <dimen name="font_xlager">20sp</dimen>
+    <dimen name="font_xxlager">22sp</dimen>
+    <dimen name="sp_24">24sp</dimen>
+    <dimen name="sp_30">30dp</dimen>
+    <dimen name="sp_34">34dp</dimen>
+    <dimen name="sp_48">48sp</dimen>
+
+    <dimen name="barView">0dp</dimen>
+    <dimen name="title_bar_height">40dp</dimen>
+    <dimen name="sp_top_title_text">22sp</dimen>
+</resources>

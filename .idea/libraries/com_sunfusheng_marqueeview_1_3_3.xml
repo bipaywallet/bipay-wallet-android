@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.sunfusheng:marqueeview-1.3.3">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/marqueeview-1.3.3.aar/fbf9456686fa5b023e0224192f843c3d/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/marqueeview-1.3.3.aar/fbf9456686fa5b023e0224192f843c3d/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sunfusheng/marqueeview/1.3.3/263ed52cc0beca310e83ca7b6c36a3505ad787d2/marqueeview-1.3.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

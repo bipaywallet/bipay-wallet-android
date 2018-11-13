@@ -1,0 +1,12 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/btn_transfer_normal"
+    android:radius="25dp">
+    <!-- 点击后的背景色-->
+    <item>
+        <shape>
+            <!-- 点击前的背景色-->
+            <solid android:color="@color/font_main_yellow" />
+            <corners android:radius="25dp" />
+        </shape>
+    </item>
+</ripple>

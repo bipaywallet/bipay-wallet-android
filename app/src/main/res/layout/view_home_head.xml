@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llHead"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/llTitle"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/main_head_bg"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="80dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/ivBack"
+                android:layout_width="48dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/ripple_black"
+                android:padding="14dp"
+                android:src="@mipmap/icon_back"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/ivSwitch"
+                android:layout_width="48dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/ripple_black"
+                android:padding="12dp"
+                android:src="@mipmap/icon_exchange"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/app_name"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_lager"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:id="@+id/llExchange"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tvTopSellName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ETH "
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_lager" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/icon_exchange_arrow" />
+
+                <TextView
+                    android:id="@+id/tvTopBuyName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" BTC"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_lager" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:gravity="end">
+
+            <ImageView
+                android:id="@+id/ivMore"
+                android:layout_width="48dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/ripple_black"
+                android:padding="12dp"
+                android:src="@mipmap/icon_horizontal_more"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/ivRecord"
+                android:layout_width="48dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/ripple_black"
+                android:padding="12dp"
+                android:src="@mipmap/icon_exchange_record"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

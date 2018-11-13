@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lladapter"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/main_bg"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <LinearLayout
+        android:id="@+id/llAdapterBg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple_item_wallet"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="12dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvName"
+                style="@style/textview_set"
+                android:text="---"
+                android:textSize="@dimen/font_lager" />
+
+            <TextView
+                android:id="@+id/tvCoinNum"
+                style="@style/textview_set"
+                android:layout_marginTop="5dp"
+                android:text="---"
+                android:textColor="@color/font_sec_grey"
+                android:textSize="@dimen/font_mini" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/flMore"
+                android:layout_width="30dp"
+                android:layout_height="60dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:scaleType="center"
+                    android:src="@mipmap/icon_horizontal_more" />
+            </FrameLayout>
+
+            <!--<TextView-->
+            <!--android:id="@+id/tvMoney"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="0.00000000 CNY"-->
+            <!--android:textColor="@color/font_main_green"-->
+            <!--android:textSize="@dimen/font_lager" />-->
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

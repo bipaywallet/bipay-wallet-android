@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/suxi/Documents/workspace/bipaygithub/lib-zxing/build/intermediates/intermediate-jars/release/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.3"
+        sha1="d394a666bc4de84023fdadc2040d83b03eea991a">
+        <dex dex="/Users/suxi/Documents/workspace/bipaygithub/app/build/intermediates/transforms/preDex/release/44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/suxi/Documents/workspace/bipaygithub/bipaysdk/build/intermediates/intermediate-jars/release/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.3"
+        sha1="14d10b542c425135ffcc12611f2e2e7d863ec4df">
+        <dex dex="/Users/suxi/Documents/workspace/bipaygithub/app/build/intermediates/transforms/preDex/release/46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/suxi/Documents/workspace/bipaygithub/kchartlib/build/intermediates/intermediate-jars/release/classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="27.0.3"
+        sha1="9cf6df73499784af8e0341b95c58d975d0223b01">
+        <dex dex="/Users/suxi/Documents/workspace/bipaygithub/app/build/intermediates/transforms/preDex/release/45.jar" />
+    </item>
+
+</items>

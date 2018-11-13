@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    android:orientation="vertical">
+
+    <!--标题-->
+    <include layout="@layout/view_head" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="35dp"
+        android:paddingLeft="35dp"
+        android:paddingTop="60dp"
+        android:text="@string/fragment_one_pop_cjqb"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_30" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="35dp"
+        android:paddingRight="40dp">
+
+        <EditText
+            android:id="@+id/etName"
+            style="@style/editext_create_wallet"
+            android:background="@color/transparent"
+            android:hint="@string/activity_create_wallet_name" />
+
+        <View style="@style/line_bg_grey" />
+
+        <EditText
+            android:id="@+id/etPassWord"
+            style="@style/editext_create_wallet"
+            android:background="@color/transparent"
+            android:hint="@string/activity_create_wallet_pwd"
+            android:inputType="numberPassword"
+            android:maxLength="7" />
+
+        <View style="@style/line_bg_grey" />
+
+        <EditText
+            android:id="@+id/etConfirmPwd"
+            style="@style/editext_create_wallet"
+            android:background="@color/transparent"
+            android:hint="@string/activity_create_wallet_confirm_pwd"
+            android:inputType="numberPassword"
+            android:maxLength="7" />
+
+        <View style="@style/line_bg_grey" />
+
+        <EditText
+            android:id="@+id/etTip"
+            style="@style/editext_create_wallet"
+            android:background="@color/transparent"
+            android:hint="@string/activity_create_wallet_tag" />
+
+        <View style="@style/line_bg_grey" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tvCreate"
+        style="@style/btn_option"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/fragment_one_pop_cjqb" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!--<CheckBox-->
+            <!--android:id="@+id/checkBox"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:layout_marginLeft="15dp"-->
+            <!--android:button="@drawable/selector_checkedbox"-->
+            <!--android:checked="false"-->
+            <!--android:gravity="center"-->
+            <!--android:paddingLeft="8dp"-->
+            <!--android:text="@string/agreement_read"-->
+            <!--android:textColor="@color/font_third_grey"-->
+            <!--android:textSize="@dimen/font_small"-->
+            <!--android:visibility="gone" />-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/agreement_detail_tag"
+            android:textColor="@color/font_sec_grey"
+            android:textSize="@dimen/font_mini" />
+
+        <TextView
+            android:id="@+id/tvAgree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="@string/agreement_detail"
+            android:textColor="@color/font_blue"
+            android:textSize="@dimen/font_mini" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    android:orientation="vertical">
+
+    <!--标题-->
+    <include layout="@layout/view_head" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvMan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="60dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="60dp"
+            android:layout_marginTop="10dp">
+
+            <com.spark.bipaywallet.ui.IndexBar
+                android:id="@+id/indexBar"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center|end"
+                android:background="@color/transparent" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tvAdd"
+            style="@style/btn_option_bottom"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/ripple_btn_option_no_corner_selector"
+            android:text="@string/activity_man_add" />
+
+        <TextView
+            android:id="@+id/tvSideBarHint"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:background="@drawable/shape_loding_pop"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/sp_48"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

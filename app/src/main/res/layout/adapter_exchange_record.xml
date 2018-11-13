@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/ripple_item_link_main_selector"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tvFrom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ETH 1"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_normal" />
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@mipmap/icon_exchange_logo_record" />
+
+            <TextView
+                android:id="@+id/tvTo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="USDT 205.15451211"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                style="@style/textview_tag_normal"
+                android:text="@string/activity_exchange_record_time"
+                android:textColor="@color/font_sec_grey"
+                android:textSize="@dimen/font_small" />
+
+            <TextView
+                android:id="@+id/tvTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:ellipsize="middle"
+                android:gravity="right"
+                android:singleLine="true"
+                android:text="2018-10-19 14:57:02"
+                android:textColor="@color/font_sec_grey"
+                android:textSize="@dimen/font_small" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                style="@style/textview_tag_normal"
+                android:text="@string/activity_exchange_detail_out_address"
+                android:textColor="@color/font_sec_grey"
+                android:textSize="@dimen/font_small" />
+
+            <TextView
+                android:id="@+id/tvFromAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:ellipsize="middle"
+                android:gravity="right"
+                android:singleLine="true"
+                android:text="cdsjncdslcbdsbcjdscjdslbcdjsbccbdjslbcdslbcjdslbc"
+                android:textColor="@color/font_sec_grey"
+                android:textSize="@dimen/font_small" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                style="@style/textview_tag_normal"
+                android:text="@string/activity_exchange_detail_in_address"
+                android:textColor="@color/font_sec_grey"
+                android:textSize="@dimen/font_small" />
+
+            <TextView
+                android:id="@+id/tvToAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:ellipsize="middle"
+                android:gravity="right"
+                android:singleLine="true"
+                android:text="cdsjncdslcbdsbcjdscjdslbcdjsbccbdjslbcdslbcjdslbc"
+                android:textColor="@color/font_sec_grey"
+                android:textSize="@dimen/font_small" />
+        </LinearLayout>
+
+        <View
+            style="@style/line_bg_grey"
+            android:layout_marginTop="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                style="@style/textview_tag_normal"
+                android:text="@string/activity_exchange_rate"
+                android:textColor="@color/font_sec_grey"
+                android:textSize="@dimen/font_small" />
+
+            <TextView
+                android:id="@+id/tvRate"
+                style="@style/textview_tag_normal"
+                android:text="123.45678952"
+                android:textColor="@color/font_sec_grey"
+                android:textSize="@dimen/font_small" />
+
+            <TextView
+                android:id="@+id/tvStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="---"
+                android:textColor="@color/txtRed"
+                android:textSize="@dimen/font_small" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

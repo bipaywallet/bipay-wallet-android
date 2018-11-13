@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    android:orientation="vertical">
+
+    <!--标题-->
+    <include layout="@layout/view_head" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/llSimple"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@color/bg_create_man"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="简体中文"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_normal" />
+
+            <ImageView
+                android:id="@+id/iv1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:scaleType="center"
+                android:src="@mipmap/icon_switch_wallet_selected"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <View style="@style/line_bg_grey" />
+
+        <LinearLayout
+            android:id="@+id/llEnglish"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@color/bg_create_man"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="English"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_normal" />
+
+            <ImageView
+                android:id="@+id/iv2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:scaleType="center"
+                android:src="@mipmap/icon_switch_wallet_selected"
+                android:visibility="gone" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

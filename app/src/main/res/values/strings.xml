@@ -1,0 +1,334 @@
+<resources>
+    <string name="app_id">wxa9abf55c581d97cf</string>
+    <string name="umeng_id">5b7d05b58f4a9d78de000025</string>
+    <string name="exchange_key">21fa7faea69b44e7bc1d0dc054aa923a</string>
+    <string name="exchange_secret">7b7d8bb0047ad94db11eeaec4b7752f8e5c471728f5ff761263077468ff5fb2f</string>
+
+    <string name="app_name">币付钱包</string>
+    <string name="save_app_version_name">bipaywallet</string>
+    <string name="home_tab_wallet">钱包</string>
+    <string name="home_tab_market">行情</string>
+    <string name="home_tab_news">快讯</string>
+    <string name="home_tab_set">设置</string>
+    <item name="sidebar" type="id"></item>
+    <item name="curPosition" type="id"></item>
+    <!--异常-->
+    <string name="unknown_error">未知错误</string>
+    <string name="no_network">网络异常，请检查网络</string>
+    <string name="parse_error">解析异常</string>
+    <string name="time_out">请求超时</string>
+    <string name="no_data">暂无数据</string>
+    <string name="Incomplete_information">填写信息不完整</string>
+    <string name="password_two_warn">两次输入密码不一致</string>
+    <string name="wallet_name_repeat_warn">已有此钱包名称</string>
+    <string name="wallet_exist_warn">此钱包已存在</string>
+    <string name="linkman_name_repeat_warn">已有此联系人名称</string>
+    <string name="password_length_tip">密码必须为6位数字</string>
+    <string name="password_confirm_error">密码验证错误</string>
+    <string name="confirm_error">验证错误</string>
+    <string name="memory_words_warn">助记词不合法</string>
+    <string name="privkey_warn">私钥不合法</string>
+    <string name="transfer_pay_warn">转账金额必须大于0</string>
+    <string name="fee_warn">手续费必须大于0</string>
+    <string name="money_not_enough">余额不足</string>
+    <string name="fee_not_enough">手续费不足</string>
+    <string name="address_not_verify">转账地址不合法</string>
+    <string name="address_not_allow">转账地址不能是自己地址</string>
+    <string name="zxing_fail">解析失败</string>
+    <string name="zxing_coin_error">该地址非当前资产地址</string>
+    <string name="zxing_add_coin_first">请先添加该资产</string>
+    <string name="check_box_selected_first">请先同意服务及隐私条款</string>
+    <string name="installed_error">找不到该应用,请安装后重试!</string>
+    <string name="mobile_error">手机号格式不正确</string>
+    <string name="email_error">邮箱格式不正确</string>
+
+    <string name="camera_permission">权限不可用，请开启相机权限</string>
+    <string name="storage_permission">权限不可用，请开启存储权限</string>
+
+    <string name="warm_prompt">温馨提示</string>
+
+    <string name="exit_again">再按一次退出</string>
+    <string name="help">帮助</string>
+    <string name="english">English</string>
+    <string name="chinese">中文</string>
+    <string name="share">分享</string>
+    <string name="save">保存</string>
+    <string name="more">更多</string>
+    <string name="password_change_success">修改成功</string>
+    <string name="news_up">收起</string>
+    <string name="news_down">展开</string>
+
+    <string name="record_wait_confirm">确认中</string>
+    <string name="record_finish">已到账</string>
+
+    <string name="copy_success">已复制到剪贴板!</string>
+    <string name="save_success">保存成功</string>
+    <string name="delete_success">删除成功</string>
+    <string name="trade_success">交易成功</string>
+    <string name="trade_underway">您可能有一笔未完成的交易</string>
+    <string name="can_not_search">暂不支持查询</string>
+
+    <string name="share_weixin">微信好友</string>
+    <string name="share_pyq">朋友圈</string>
+
+    <string name="fragment_one_pop_all_money">总资产</string>
+    <string name="wallet_pop_scan">扫一扫</string>
+    <string name="fragment_one_pop_cjqb">创建钱包</string>
+    <string name="fragment_one_pop_drqb">导入钱包</string>
+    <string name="fragment_one_pop_tjzc">添加资产</string>
+
+    <string name="fragment_two_zcmc">资产名称</string>
+    <string name="fragment_two_zxj">最新价</string>
+    <string name="fragment_two_zdf">涨跌幅</string>
+
+    <string name="fragment_four_man">联系人</string>
+    <string name="fragment_four_record">交易记录</string>
+    <string name="fragment_four_wallet">钱包管理</string>
+    <string name="fragment_four_message">消息中心</string>
+    <string name="fragment_four_setting">系统设置</string>
+    <string name="fragment_four_help">帮助中心</string>
+    <string name="fragment_four_aboutus">关于我们</string>
+    <string name="fragment_four_version">版本更新</string>
+    <string name="fragment_four_coin">货币设置</string>
+    <string name="fragment_four_language">语言设置</string>
+    <string name="fragment_four_share_app">分享APP</string>
+    <string name="help_center">帮助中心</string>
+
+    <string name="activity_lead_next">立即体验</string>
+
+    <string name="activity_add_market">添加行情</string>
+    <string name="activity_add_market_search">搜索</string>
+
+    <string name="activity_market_details">价格行情</string>
+
+    <string name="activity_wallet_details_qbmc">钱包名称</string>
+    <string name="activity_wallet_details_tip">密码提示</string>
+    <string name="activity_wallet_details_xgmm">修改密码</string>
+    <string name="activity_wallet_details_dcsy">导出私钥</string>
+    <string name="activity_wallet_details_scqb">删除钱包</string>
+    <string name="activity_wallet_details_key">私钥</string>
+    <string name="activity_wallet_details_main_key">主私钥</string>
+
+    <string name="activity_update_password_title">修改密码</string>
+    <string name="activity_update_password_hint1">请输入原密码</string>
+    <string name="activity_update_password_hint2">请输入新密码</string>
+    <string name="activity_update_password_hint3">重新确认密码</string>
+    <string name="activity_update_password_qrxg">确认修改</string>
+
+    <string name="activity_create_wallet_name">钱包名称</string>
+    <string name="activity_create_wallet_pwd">密码</string>
+    <string name="activity_create_wallet_confirm_pwd">确认密码</string>
+    <string name="activity_create_wallet_tag">密码提示信息(非必填)</string>
+
+    <string name="activity_backups_wallet_title">备份钱包</string>
+    <string name="activity_backups_wallet_txt1">创建成功</string>
+    <string name="activity_backups_wallet_txt2">最后一步：立即备份你的钱包</string>
+    <string name="activity_backups_wallet_txt3">备份钱包：导出[助记词]并抄写到安全的地方，
+        千万不要保存在网络上，然后尝试转入，转出小额资产开始使用</string>
+
+    <string name="activity_memory_words_title">备份助记词</string>
+    <string name="activity_memory_words_txt1">抄写下你的钱包助记词</string>
+    <string name="activity_memory_words_txt2">可点击右上角“English”和“中文”切换你擅记的助记词，
+        助记词用于恢复钱包或重置钱包密码，将它准确的抄写到纸上，并存放在只有你知道的安全的地方</string>
+    <string name="activity_memory_words_txt3">确认你的钱包助记词</string>
+    <string name="activity_memory_words_txt4">请确认您的备份助记词，并按照正确顺序点击填入</string>
+    <string name="activity_memory_words_next">下一步</string>
+    <string name="activity_memory_words_confirm">确认</string>
+
+    <string name="activity_create_wallet_success_title">钱包创建成功</string>
+    <string name="activity_create_wallet_success_next">立即使用</string>
+
+    <string name="activity_add_coin_title">添加资产</string>
+    <string name="activity_add_erc">Etherenm系-ERC20标准</string>
+
+    <string name="activity_news_details_title">详情</string>
+    <string name="have">有</string>
+    <string name="have_news_message">条新快讯</string>
+
+    <string name="activity_select_coin_title">选择货币</string>
+
+    <string name="activity_select_language_title">选择语言</string>
+
+    <string name="activity_message_title">消息通知</string>
+
+    <string name="activity_message_details_title">消息详情</string>
+
+    <string name="activity_switch_wallet_title">切换钱包</string>
+
+    <string name="activity_payment_zhuanzhang">转账</string>
+    <string name="activity_payment_shoukuan">收款</string>
+    <string name="activity_payment_copy">复制</string>
+    <string name="activity_payment_dqdz">当前地址：</string>
+    <string name="activity_payment_zjjy">最近交易</string>
+
+    <string name="activity_create_man_title">新建联系人</string>
+    <string name="activity_create_man_hint1">姓名</string>
+    <string name="activity_create_man_hint2">收款人钱包地址</string>
+    <string name="activity_create_man_hint3">手机号(非必填)</string>
+    <string name="activity_create_man_hint4">邮箱(非必填)</string>
+    <string name="activity_create_man_hint5">备注(非必填)</string>
+
+    <string name="activity_edit_man_title">编辑联系人</string>
+    <string name="activity_edit_man_del">删除</string>
+
+    <string name="activity_man_title">联系人</string>
+    <string name="activity_man_add">添加联系人</string>
+
+    <string name="activity_receivables_title">收款码</string>
+    <string name="activity_receivables_shoukuan_address">转入地址</string>
+    <string name="activity_receivables_shoukuan_money">转入金额</string>
+    <string name="activity_receivables_copy_address">复制地址</string>
+    <string name="activity_receivables_save_image">保存图片</string>
+
+    <string name="activity_trade_details_title">交易详情</string>
+    <string name="activity_trade_details_zhuanzhang">转账</string>
+    <string name="activity_trade_details_shoukuan_address">转入地址</string>
+    <string name="activity_trade_details_out_address">转出地址</string>
+    <string name="activity_trade_details_fee">矿工费</string>
+    <string name="activity_trade_details_block_height">区块高度</string>
+    <string name="activity_trade_details_trade_number">交易号</string>
+    <string name="activity_trade_details_trade_time">交易时间</string>
+    <string name="activity_trade_details_search">查看</string>
+
+    <string name="activity_zxing_title">扫码</string>
+    <string name="activity_zxing_photo">相册</string>
+    <string name="activity_zxing_scan_txt">将取景框对准二维码即可扫描</string>
+
+    <string name="activity_import_wallet_ksdr">开始导入</string>
+    <string name="activity_import_wallet_hint1">请输入助记词,并使用空格分隔</string>
+    <string name="activity_import_wallet_hint2">币付钱包app当前仅支持从币付app导出的钱包私钥，其它系统钱包私钥暂不支持，请谨慎导入</string>
+    <string name="activity_import_wallet_success">钱包导入成功</string>
+    <string name="activity_import_wallet_ljsy">立即使用</string>
+
+    <string name="activity_transfer_pay_title">转账</string>
+    <string name="activity_transfer_pay_dialog_title">确认转账</string>
+    <string name="activity_transfer_pay_hint0">请输入合法的地址</string>
+    <string name="activity_transfer_pay_hint1">转账金额</string>
+    <string name="activity_transfer_pay_hint2">备注</string>
+    <string name="activity_transfer_pay_fee">矿工费</string>
+    <string name="activity_transfer_pay_slow">慢</string>
+    <string name="activity_transfer_pay_common">正常</string>
+    <string name="activity_transfer_pay_fast">快</string>
+    <string name="activity_transfer_pay_remark">备注(仅本人可见)</string>
+
+    <string name="activity_notice">详情</string>
+    <string name="activity_trade">交易查询</string>
+    <string name="activity_news_erweima">扫一扫 下载币付APP</string>
+
+    <string name="activity_agreement">服务条款</string>
+    <string name="activity_agreement_content">尊敬的用户：\n\n感谢您选择Bipay服务,在使用Bipay（以下简称“Bipay” 或“本软件”）之前，请认真阅读《Bipay服务协议》及后文提到的相关协议，尤其是本协议规定的“免责及责任限制”等条款将以加粗的形式体现，确保您充分理解本协议中各条款，并自主考虑风险。\n\n一、 关于本协议的确认与接纳\n\n1. 您下载Bipay软件并创建或导入钱包，即视为您已经充分阅读并接受本协议全部条款，本协议立即生效，对双方具有约束力。\n\n2. 如果您未满18周岁，或者是无民事行为能力人或限制民事行为能力人，请在父母或监护人指导下使用Bipay。\n\n二、 定义1. Bipay：基于区块链技术开发一款多币种钱包管理软件。\n\n2. 用户：\n\n（1）用户必须是具备完全民事行为能力的自然人；\n\n（2）若您为18周岁以下的未成年人使用Bipay服务，需要在您父母或监护人的指导下使用Bipay。无民事行为能力人使用Bipay或限制民事行为能力人超过其民事权利或行为能力范围从事交易的，造成的一切后果，Bipay有权要求您及您的父母或监护人负责。\n\n3. 创建或导入钱包：指您使用Bipay，确认履行本协议并创建或导入钱包的过程。\n\n4. 钱包密码：指您在创建Bipay钱包过程中，软件操作界面提示您填写的密码，该密码用于支付时确认，一旦丢失你需要借助登录密码重置新密码。\n\n5. 私钥：由256位随机字符构成，是用户拥有并使用数字代币的核心。\n\n6. 公钥：由私钥借助密码学原理单向推导生成，并用以生成区块链数字钱包地址，数字钱包地址即为公开收款地址。\n\n7. 登录密码：由随机算法生成的18位字母或数字组成，方便用户备份保管。\n\n三、 服务内容\n\n1. 创建或导入钱包。对Bipay支持的数字代币，您可以使用Bipay生成新钱包或导入相关区块链系统的其它钱包工具生成的兼容钱包。\n\n2. 转账、收款。您可以使用Bipay的转账、收款功能进行数字代币的管理，即运用私钥进行电子签名，对相关区块链的账本进行修改。转账是指付款方利用收款方的区块链地址进行转账操作，实际的转账、收款行为均在相关区块链系统（而非Bipay）发生。\n\n3. 行情查看。您可以使用Bipay查看所提供的数字代币汇率价格。Bipay通过抓取相应的数字代币汇率信息并展示在行情版块。\n\n4. 交易记录。我们将通过区块链系统拷贝您全部或部分的交易记录。但交易记录以区块链系统的记载为准。\n\n5. 暂停服务。您知悉基于区块链系统交易“不可撤销”的属性，我们不能为您暂停或撤销转账交易等操作，但在一定情况下，我们可以暂停或者限制某位用户对Bipay软件的操作。\n\n四、 免责声明\n\n1. Bipay将在现有技术水平条件下尽可能采取合理的安全措施来保护您的个人信息，以避免信息的泄露、篡改或者毁损。系统利用无线方式传输数据，因此，无法确保通过无线网络传输数据的隐私性和安全性。\n\n五、 其他\n\n1. 如您是中华人民共和国以外的用户，您需全面了解并遵守您所在司法辖区与使用融识服务所有相关法律、法规及规则。\n\n2. 您在使用Bipay服务过程中，如遇到任何有关个人信息使用的问题，您可以通过在Bipay提交反馈等方式联系我们。\n\n3. 本政策的任何译文版本仅为方便用户而提供，无意对本政策的条款进行修改。如果本政策的中文版本与非中文版本之间存在冲突，应以中文版本为准。\n\n本政策未尽事宜，您需遵守Bipay不时更新的公告及相关规则。</string>
+
+    <string name="activity_lead_open">首 家 开 源 开 放 钱 包</string>
+
+    <string name="activity_exchange_title">兑换</string>
+    <string name="activity_exchange_sell">卖出</string>
+    <string name="activity_exchange_buy">买入</string>
+    <string name="activity_exchange_input_hint">输入数量</string>
+    <string name="activity_exchange_rate">汇率\ </string>
+    <string name="activity_exchange_fee">手续费(0.5%)\ </string>
+    <string name="activity_exchange_min_out">最小卖出量：</string>
+    <string name="activity_exchange_search">搜索</string>
+    <string name="activity_exchange_tip_same_coin">相同币种不可兑换</string>
+    <string name="activity_exchange_tip_input">请输入数量</string>
+    <string name="activity_exchange_tip_min_out">卖出数量不能小于最小卖出量</string>
+    <string name="activity_exchange_dialog_content">兑换服务由Changelly平台提供支持，实时兑换汇率取决于国内外各大交易多的相对价格。兑换服务所得币数量会根据实时价格而有所波动。每笔兑换Changelly会收取0.5%的手续费，且交易一旦上链后还需支持矿工费，请以最终收到的数额为准。</string>
+    <string name="activity_exchange_dialog_ok">我知道了</string>
+
+    <string name="activity_exchange_confirm_btn">确认兑换</string>
+
+    <string name="activity_exchange_record_time">时间</string>
+
+    <string name="activity_exchange_detail_exchange">兑换中</string>
+    <string name="activity_exchange_detail_out_address">发送地址</string>
+    <string name="activity_exchange_detail_in_address">接收地址</string>
+    <string name="activity_exchange_detail_type">交易类型</string>
+    <string name="activity_exchange_detail_rate">汇率</string>
+    <string name="activity_exchange_detail_time">交易时间</string>
+
+    <string name="activity_exchange_record_title">兑换历史</string>
+
+    <string name="exchange_confirming">确认中</string>
+    <string name="exchange_exchanging">兑换中</string>
+    <string name="exchange_finished">兑换成功</string>
+    <string name="exchange_fail">兑换失败</string>
+
+    <string name="wallet_adapter_have">内含</string>
+    <string name="wallet_adapter_currencies">个币种</string>
+
+    <string name="about_us">关于我们</string>
+    <string name="about_us_content">\ \ \ \ \ \ 币付钱包是一款移动端数字资产钱包，专注于多链多币种管理，为用户提供安全、简单、易用的数字资产管理服务。</string>
+
+    <string name="agreement_read">我已经仔细阅读并同意</string>
+    <string name="agreement_detail">《服务及隐私条款》</string>
+    <string name="agreement_detail_tag">点击创建钱包即表示接受币付的</string>
+    <string name="agreement_detail_import_tag">点击开始导入即表示接受币付的</string>
+
+    <string name="dialog_title">请输入6位密码</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_confirm">确认</string>
+    <string name="dialog_copy">复制</string>
+    <string name="dialog_copy_over">已复制</string>
+    <string name="dialog_export_tips">安全警告：私钥未经加密，导出存在风险，请谨慎导出，复制完成建议物理方式保管，并保管到只有你自己知道的地方。</string>
+
+    <string name="dialog_memory_title">助记词顺序验证正确，钱包创建成功后，币付钱包将移除该助记词，且不进行存储或备份，请自主妥善保管</string>
+    <string name="dialog_change_password_title">密码验证正确，确认修改密码？</string>
+    <string name="dialog_clear_cache_title">确认清除本地缓存？</string>
+    <string name="dialog_delete_link_man_title">确认删除联系人？</string>
+    <string name="dialog_delete_wallet_title">密码正确，确认删除此钱包？</string>
+    <string name="dialog_update_wallet_name_hint">请输入想要修改的钱包名称</string>
+    <string name="dialog_back_create_wallet_tip">创建钱包过程中返回，该钱包需要重新创建</string>
+
+    <string name="empty_no_message_title">暂无数据...</string>
+    <string name="empty_no_coin_title_top">还没添加资产呢，点击右上角\"+\"，</string>
+    <string name="empty_no_coin_title_bottom">快去添加资产吧</string>
+    <string name="empty_no_linkman_title">您账号暂无联系人，请先添加联系人吧</string>
+    <string name="empty_no_osmsg_title">暂无系统消息</string>
+    <string name="empty_no_wallet_title">暂无交易记录</string>
+    <string name="empty_no_wallet_data_title">暂无钱包数据</string>
+
+    <string name="text_it_gao">高</string>
+    <string name="text_it_di">低</string>
+    <string name="text_24_change">24h量</string>
+
+    <string name="version_title">是否开始更新</string>
+    <string name="version_ok">是</string>
+    <string name="version_cancel">否</string>
+    <string name="version_url_error">下载地址不存在</string>
+    <string name="version_progress_title">正在下载</string>
+    <string name="version_progress_message">玩命下载中...</string>
+    <string name="version_notify">请在通知栏查看下载进度...</string>
+    <string name="version_no_new">已是最新版本</string>
+    <string name="coin_type">请选择币种</string>
+
+    <string name="case_exchange_waiting">waiting</string>
+    <string name="case_exchange_confirming">confirming</string>
+    <string name="case_exchange_exchanging">exchanging</string>
+    <string name="case_exchange_sending">sending</string>
+    <string name="case_exchange_finished">finished</string>
+
+    <string-array name="import_wallet_tab">
+        <item>助记词</item>
+        <item>私钥</item>
+    </string-array>
+
+    <string-array name="k_line_tab">
+        <item>分时</item>
+        <item>1分钟</item>
+        <item>5分钟</item>
+        <item>1小时</item>
+        <item>1天</item>
+        <item>30分钟</item>
+        <item>1周</item>
+        <item>1月</item>
+    </string-array>
+
+    <string-array name="currency_str">
+        <item>BTC</item>
+        <item>BCH</item>
+        <item>ETH</item>
+        <item>LTC</item>
+        <item>USDT</item>
+        <item>XNE</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,12 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:bottomLeftRadius="10dp"
+    android:color="@color/bg_sec_grey">
+    <!-- 点击后的背景色-->
+    <item>
+        <shape>
+            <!-- 点击前的背景色-->
+            <solid android:color="@color/white" />
+            <corners android:bottomLeftRadius="10dp" />
+        </shape>
+    </item>
+</ripple>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    android:orientation="vertical">
+
+    <!--标题-->
+    <include layout="@layout/view_head" />
+
+    <LinearLayout
+        android:id="@+id/llDefaultWallet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipeRefreshLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.spark.bipaywallet.ui.CustomScrollView
+                android:id="@+id/scrollView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true"
+                android:overScrollMode="never">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:orientation="vertical"
+                    android:paddingBottom="20dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:paddingTop="10dp">
+
+                    <!--top-->
+                    <LinearLayout
+                        android:id="@+id/lltop"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:background="@mipmap/bg_home_wallet"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical"
+                        android:paddingLeft="12dp"
+                        android:paddingRight="6dp"
+                        android:visibility="visible">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical">
+
+                            <TextView
+                                android:id="@+id/tvTotalTag"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/fragment_one_pop_all_money"
+                                android:textColor="@color/font_main_grey"
+                                android:textSize="@dimen/font_normal" />
+
+                            <ImageView
+                                android:id="@+id/ivEye"
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                android:scaleType="center"
+                                android:src="@mipmap/icon_eye_open" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llMoney"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:minWidth="100dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tvTopMoneyLeft"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="----"
+                                android:textColor="@color/font_main_green"
+                                android:textSize="@dimen/sp_34"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tvTopMoneyRight"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/font_main_green"
+                                android:textSize="@dimen/font_xlager"
+                                android:textStyle="bold"
+                                android:visibility="visible" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <!--公告-->
+                    <FrameLayout
+                        android:id="@+id/flNotice"
+                        android:layout_width="match_parent"
+                        android:layout_height="36dp"
+                        android:background="@color/white"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/icon_notice" />
+
+                        <com.spark.bipaywallet.ui.MyMarqueeView xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/marqueeView"
+                            android:layout_width="match_parent"
+                            android:layout_height="36dp"
+                            android:layout_marginLeft="30dp"
+                            android:background="@drawable/ripple_dark_blue"
+                            android:gravity="center_vertical"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_mini"
+                            app:mvAnimDuration="1000"
+                            app:mvDirection="bottom_to_top"
+                            app:mvInterval="2000"
+                            app:mvSingleLine="true"
+                            app:mvTextColor="@color/font_sec_black"
+                            app:mvTextSize="@dimen/font_small" />
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llAddMoney"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/ripple_black"
+                        android:gravity="right"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:padding="5dp"
+                            android:text="@string/fragment_one_pop_tjzc"
+                            android:textColor="@color/font_main_grey"
+                            android:textSize="@dimen/font_normal" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:src="@mipmap/icon_home_add" />
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/rvHome"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </com.spark.bipaywallet.ui.CustomScrollView>
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+    </LinearLayout>
+
+    <!--没有钱包状态-->
+    <LinearLayout
+        android:id="@+id/llNoWallet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/home_default_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:scaleType="center"
+            android:src="@mipmap/icon_logo" />
+
+        <TextView
+            android:id="@+id/tvCreate"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/ripple_btn_option_selector"
+            android:gravity="center"
+            android:text="@string/fragment_one_pop_cjqb"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_lager" />
+
+        <TextView
+            android:id="@+id/tvImport"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ripple_bg_lead_in_selector"
+            android:gravity="center"
+            android:text="@string/fragment_one_pop_drqb"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_lager" />
+    </LinearLayout>
+</LinearLayout>

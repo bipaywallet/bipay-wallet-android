@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etWords"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_bg_gray_memory"
+        android:gravity="top"
+        android:hint="@string/activity_import_wallet_hint2"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/font_sec_grey"
+        android:textCursorDrawable="@drawable/text_cursor_shape"
+        android:textSize="@dimen/font_small" />
+
+    <com.spark.bipaywallet.ui.CustomScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:overScrollMode="never">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp">
+
+                <EditText
+                    android:id="@+id/etName"
+                    style="@style/editext_create_wallet"
+                    android:background="@color/transparent"
+                    android:hint="@string/activity_create_wallet_name"
+                    android:textColorHint="@color/font_hint" />
+
+                <View style="@style/line_bg_grey" />
+
+                <EditText
+                    android:id="@+id/etPassWord"
+                    style="@style/editext_create_wallet"
+                    android:background="@color/transparent"
+                    android:hint="@string/activity_create_wallet_pwd"
+                    android:inputType="numberPassword"
+                    android:maxLength="7"
+                    android:textColorHint="@color/font_hint" />
+
+                <View style="@style/line_bg_grey" />
+
+                <EditText
+                    android:id="@+id/etConfirmPwd"
+                    style="@style/editext_create_wallet"
+                    android:background="@color/transparent"
+                    android:hint="@string/activity_create_wallet_confirm_pwd"
+                    android:inputType="numberPassword"
+                    android:maxLength="7"
+                    android:textColorHint="@color/font_hint" />
+
+                <View style="@style/line_bg_grey" />
+
+                <EditText
+                    android:id="@+id/etTip"
+                    style="@style/editext_create_wallet"
+                    android:background="@null"
+                    android:hint="@string/activity_create_wallet_tag"
+                    android:singleLine="true"
+                    android:textColorHint="@color/font_hint" />
+
+                <View style="@style/line_bg_grey" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvImport"
+                style="@style/btn_option"
+                android:layout_marginTop="30dp"
+                android:text="@string/activity_import_wallet_ksdr" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <!--<CheckBox-->
+                <!--android:id="@+id/checkBox"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="16dp"-->
+                <!--android:button="@drawable/selector_checkedbox"-->
+                <!--android:checked="false"-->
+                <!--android:paddingLeft="8dp"-->
+                <!--android:text="@string/agreement_read"-->
+                <!--android:textColor="@color/font_hint"-->
+                <!--android:textSize="@dimen/font_mini"-->
+                <!--android:visibility="gone" />-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/agreement_detail_import_tag"
+                    android:textColor="@color/font_sec_grey"
+                    android:textSize="@dimen/font_mini" />
+
+
+                <TextView
+                    android:id="@+id/tvAgree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="@string/agreement_detail"
+                    android:textColor="@color/font_blue"
+                    android:textSize="@dimen/font_mini" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </com.spark.bipaywallet.ui.CustomScrollView>
+
+</LinearLayout>

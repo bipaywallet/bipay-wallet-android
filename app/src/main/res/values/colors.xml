@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#161835</color>
+    <color name="colorPrimaryDark">#161835</color>
+    <color name="colorAccent">#6a6b79</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="lineGray">#ecedf0</color>
+
+    <color name="baseBlack">#12141c</color>
+    <color name="baseGolden">#E3BB66</color>
+    <color name="backgroundWhite">#FFFFFF</color>
+
+    <color name="txtGray">#909499</color>
+    <color name="backGroundGray">#F6F8F9</color>
+    <color name="btnGray">#C6C6C6</color>
+    <color name="btnGolden">#B89D71</color>
+    <color name="btnBlue">#00a0e9</color>
+
+    <color name="txtBlue">#3865E5</color>
+    <color name="txtGreen">#3CBC98</color>
+    <color name="txtRed">#FC5858</color>
+
+    <color name="Red">#ff0000</color>
+
+    <color name="line_kline_index_divide">#abb7c1</color>
+
+    <color name="typeGreen">#3cbc98</color>
+    <color name="typeRed">#fc5858</color>
+    <color name="color_font_kline">#A2A2A2</color>
+
+
+    <color name="main_bg">#161835</color><!--应用整体的背景色-->
+    <color name="main_head_bg">#161835</color><!--应用头部背景色-->
+    <color name="home_default_bg">#141834</color><!--首次进入应用背景色-->
+    <color name="home_bg">#02072c</color><!--首页背景色-->
+    <color name="home_recycler_bg">#1d2249</color><!--首页资产列表-->
+    <color name="bg_create_man">#1a1e3b</color><!--创建联系人-->
+    <color name="bg_circle_head_man">#303356</color><!--联系人头像背景-->
+    <color name="main_head_bg_hover">#404040</color><!--应用头部背景点击色-->
+    <color name="line_bg_grey">#262843</color><!--线条颜色-->
+    <color name="bg_popwindow">#2E2A28</color><!--popwindow的背景色-->
+    <color name="bg_popwindow_pressed">#444444</color><!--popwindow的背景色-->
+    <color name="bg_grey">#F0F0F0</color><!--灰色主色-->
+    <color name="bg_sec_grey">#dddddd</color><!--灰色-->
+    <color name="bg_tab">#F6F8F9</color><!--行情tab栏背景色-->
+    <color name="bg_tab_bottom">#FEFEFE</color>
+    <color name="bg_green">#3CBC98</color><!--绿色背景-->
+    <color name="bg_red">#FC5858</color><!--红色背景-->
+    <color name="bg_set">#F6F7F7</color><!--设置界面背景色-->
+    <color name="bg_copy">#137eae</color><!--复制按钮背景色-->
+    <color name="btn_option_normal">#14bbeb</color><!--全局蓝色按钮-->
+    <color name="btn_option_pressed">#55ddff</color><!--全局蓝色按钮点击色-->
+    <color name="btn_transfer_normal">#B89D71</color><!--转账按钮-->
+    <color name="btn_recieve_normal">#4F4E4D</color><!--收款按钮-->
+    <color name="font_main_yellow">#EDC173</color><!--一号黄色字体-->
+    <color name="font_sec_yellow">#9A804B</color><!--二号黄色字体-->
+    <color name="font_main_black">#171412</color><!--一号黑色字体-->
+    <color name="font_sec_black">#252C36</color><!--二号黑色字体-->
+    <color name="font_main_grey">#9d9fb9</color>
+    <color name="font_sec_grey">#6a6b79</color>
+    <color name="font_third_grey">#98A1AF</color>
+    <color name="font_main_green">#0fbaba</color>
+    <color name="font_share">#c99436</color><!--分享字体颜色-->
+    <color name="font_blue">#3865E5</color>
+    <color name="font_hint">#515471</color>
+
+    <color name="dialog_cancel_txt">#3865E5</color><!--弹出框取消-->
+    <color name="dialog_ok_txt">#FC5858</color><!--弹出框确定-->
+</resources>
