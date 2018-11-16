@@ -298,15 +298,15 @@ public native String createNewTransaction(String json, int coinType);
 
 ```
 ETH
-        {
+    {
     "from":"0x389b5c399d998a71f816449ab31c9d2c358c082f",  // 转账地址
     "to":"0xc52f519474f6f0def379c9d161b0a91ec47582f2", // 转入地址
     "value":"10000000000000", // 转账金额
     "nonce":"2", // 交易次数
     "gasprice":"7000000000" // 手续费
      }    
-BTC、DVC、BCH、LTC、XNE、USDT
-    {
+BTC、DVC、LTC、XNE、BCH
+{
     "inputs_count": 3, // 需要用到的交易结构体个数
     "inputs": [
         {
@@ -330,11 +330,40 @@ BTC、DVC、BCH、LTC、XNE、USDT
         }
     ]
 }
-```
+USDT
+{
+    "inputs_count": 3, // 需要用到的交易结构体个数
+    "inputs": [
+        {
+            "prev_position": 0, // 上次输出的序号
+            "prev_tx_hash": "" // 交易编号
+        },
+        {
+            "prev_position": 0,
+            "prev_tx_hash": ""
+        }
+    ],
+    "outputs_count": 2, // 不需要找零时为1，需要找零时为2
+    "outputs": [
+        {
+            "address": "", // 对方的接收地址
+            "value": "" // 转账金额
+        },
+        {
+            "address": "", // 自己的转账地址（需要找零时，追加此字段和value字段）
+            "value": "" // 找零金额
+        }
+    ],
+    "usdt":[
+        31,
+        计算得到的数（实际转账金额 * 10的8次方）
+    ]
 
-  
+}
+```
  ***
-<font face="Times New Roman" size="5" color="#388dee">API - signatureForTransfer</font><br />
+
+<font face="Times New Roman" size="5" color="#388dee">API - signatureForTransfer（默认转账时使用）</font><br />
 ```
 
 /**
@@ -354,5 +383,33 @@ public native String signatureForTransfer(String tx, String privkeys, int coinTy
 -   tx:由createNewTransaction方法返回的数据
 -   privkeys:由getSignaturePrivKey方法获得，createNewTransaction的jso中有几个交易结构体，就追加几个privkeys，用空格" "分开
 -   coinType: 币种，对应值参考币种说明
+
+<font face="Times New Roman" size="5" color="#388dee">API - signatureForTransfer（BCH币种转账时使用）</font><br />
+```
+
+/**
+ 签名,生成转账参数
+
+ @param tx  createNewTransaction方法返回的数据
+ @param privkeys 由getSignaturePrivKey方法获得，createNewTransaction的json中有几个交易结构体，就追加几个privkeys，用空格" "分开
+ @param coinType 币种，对应值参考币种说明
+ @param reserved 构建的交易json字符串
+{
+    amount:[
+        需要用到的交易结构体对应的amount（有几个结构体就写几个）
+    ]
+}
+ @return 签名后字符串,为了发送交易给后台
+ */
+public native String signatureForTransfer(String tx, String privkeys, int coinType, String reserved);
+
+```
+
+ **参数说明**
+
+-   tx:由createNewTransaction方法返回的数据
+-   privkeys:由getSignaturePrivKey方法获得，createNewTransaction的jso中有几个交易结构体，就追加几个privkeys，用空格" "分开
+-   coinType: 币种，对应值参考币种说明
+-   reserved: 构建的交易json字符串
 
 ## 4.欢迎加入开发者群，QQ：311189009
