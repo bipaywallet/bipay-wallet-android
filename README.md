@@ -1,5 +1,5 @@
 ## Bipay - 币付钱包APP安卓版
-#### [官方网站](http://app.bipay.io) | [bipaysdk参考文档](https://github.com/bipaywallet/bipay-wallet-android/blob/master/bipaysdk/README.md) | QQ群：311189009
+#### [官方网站](https://www.bipay.io) | [bipaysdk参考文档](https://github.com/bipaywallet/bipay-wallet-android/blob/master/bipaysdk/README.md) | QQ群：311189009
 
 ### 1.简介
 币付钱包APP是一款移动端数字资产钱包，专注于多链多币种管理，为用户提供安全、简单、易用的数字资产管理服务。本项目是基于MVP模式，使用okhttp3进行网络请求，依赖bipaysdk进行开发。
